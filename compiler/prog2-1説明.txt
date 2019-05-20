@@ -1,0 +1,15 @@
+/* Definition of expression in Yacc */
+
+%%
+
+input : expr '\n';   Ž®‚Æ‚¢‚¤‚Ì‚Íexpr‚ÌŒã‚É\n‚ª‚ ‚é‚â‚Â‚Å‚·
+expr : expr '+' factor | term '-' term | term ;
+term : term '*' factor '/' factor | factor ;
+factor: 'i' | '(' expr ')';
+
+%%
+
+yylex()
+{
+  return getchar();
+}

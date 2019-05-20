@@ -1,0 +1,22 @@
+mkou0@DESKTOP-BFQQVFR ~/compiler
+$ ./expr
+1116170035+2017
+1116172052
+
+
+mkou0@DESKTOP-BFQQVFR ~/compiler
+$ ./expr
+1116170035-2017
+1116168018
+
+
+mkou0@DESKTOP-BFQQVFR ~/compiler
+$ ./expr
+1116170035*2017
+752097491
+
+
+mkou0@DESKTOP-BFQQVFR ~/compiler
+$ ./expr
+1116170035/2017
+553381
